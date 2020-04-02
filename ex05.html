@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicação Script</title>
+    <style>
+        body{
+            background-color: #DCDCDC;
+            text-align: center;
+        }
+
+        h1{
+            color: #1E90FF;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+        }
+
+        p{
+            color: #00CED1;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeiro script</h1>
+    <p>Execução de um codigo em JAVASCRIPT.</p>
+    <script>
+        //Tratamento e manipulação de dados
+        var n1 = Number(window.prompt('Digite um número'))//Com o a função Number.int estamos conventendo a String dentro do prompt para um number, ou seja para um numero.
+        var n2 = Number(window.prompt('Digite outro número'))//Existe duas maneiras de usar o Number, são eles: NumberInt e o Numberfloat. O NumberInt é usado para números interiros, já o tipo Float é usado para o tipo REAL.
+        //Usando apenas o Number o criterio de escolha fica por conta do JavaScript.
+        var s = n1 + n2
+        window.alert('A soma dos valores é: ' + s) 
+        //Para a convesão de Número para uma String pode-se usar duas maneiras:
+        //String(n)
+        //n.toString()
+    </script>
+    
+</body>
+</html>
